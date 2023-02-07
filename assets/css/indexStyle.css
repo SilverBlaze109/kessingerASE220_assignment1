@@ -1,0 +1,35 @@
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightsalmon;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    body {
+        background-color: lightslategray;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+body {
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+.peopleCarouselImg img {
+    width: auto;
+    height: 600px;
+    max-height: 600px;
+  }
+
+.section {
+    padding-top:20px;
+}
+
+.cBody {
+    background-color: white;
+}
